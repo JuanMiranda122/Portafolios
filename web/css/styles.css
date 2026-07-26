@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0A0A0A;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #111111;
+    border-bottom: solid #22C55E;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.menu__palabra{
+    color: #22C55E;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.menu__link{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.menu__link:visited{
+    color: #FFFFFF;
+}
+
+.menu__link:hover{
+    color: #22C55E;
+}
+
+.menu__link:active{
+    color: #16A34A;
+}
+
+.hero__titulo{
+    color: #22C55E;
+}
+
+
+
+
+
