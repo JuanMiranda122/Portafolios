@@ -23,8 +23,15 @@ h2 {
     margin-bottom: 10px;
 }
 
+.hero_contenido2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    gap: 2rem;   
+}
+
 .hero__palabra {
-    color: #22C55E;
+    color:  #22C55E;
 }
 
 .hero__img {
@@ -43,7 +50,28 @@ h2 {
     flex-wrap: wrap;
     font-size: 1.7rem;
     width: 500px;
+    line-height: 1.6;
+}
 
+.hero_text2{
+    margin-top: 1.5vh;
+    margin-left: 7vh;
+}
+
+.hero_text2_1{
+   display: flex;
+   flex-direction: row;
+   font-size: 1.7rem;
+   margin-left: 39.5vh;
+   width: 1010px;
+   color: #FFFFFF;
+   text-align: justify;
+   line-height: 1.6;    
+
+}
+
+.hero_subtitulo{
+    font-size: 4rem;
 }
 
 .hero__icons {
