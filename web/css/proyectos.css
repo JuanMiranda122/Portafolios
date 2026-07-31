@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.card{
+    border: solid #2B2B2B;
+    width: 500px;
+    height: 500px;
+    color: #FFFFFF;
+    border-radius: 18px;
+    background-color: #181818;
+    overflow: hidden;
+}
+
+.card:hover{
+    border: solid #22C55E;
+}
+
+.card_forms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:35px;
+    margin-top: 2vh;
+    font-size: 2rem;
+}
+
+.card_img{
+    width: 495.5px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card_list_titulo{
+    color: #FFFFFF;
+}
+
+.card_list_text2{
+    color: #B3B3B3;
+}
+
+.card_list_text{
+    color: #22C55E;
+}
+
+.hero__icons {
+    background-color: #272727;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #FFFFFF;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}

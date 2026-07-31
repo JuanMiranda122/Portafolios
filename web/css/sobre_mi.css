@@ -63,11 +63,10 @@ h2 {
    flex-direction: row;
    font-size: 1.7rem;
    margin-left: 39.5vh;
-   width: 1010px;
+   width: 1000px;
    color: #FFFFFF;
    text-align: justify;
-   line-height: 1.6;    
-
+   line-height: 1.6;       
 }
 
 .hero_subtitulo{
