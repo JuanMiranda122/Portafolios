@@ -13,10 +13,12 @@ main{
     border-radius: 18px;
     background-color: #181818;
     overflow: hidden;
+    transition: .4s ease-in-out;
 }
 
 .card:hover{
     border: solid #22C55E;
+    transform: translateY(-5px);
 }
 
 .card_forms{
@@ -47,21 +49,53 @@ main{
 }
 
 .hero__icons {
-    background-color: #272727;
-    padding: 5px;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    display: flex;
+    width: 45px;
+    height: 45px;
     text-align: center;
     transition: .4s ease-in-out;
 }
 
 .icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 40px;
     color: #FFFFFF;
-    height: auto;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+
+}
+
+.container_cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.icons2{
+    background-color: #272727;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+}
+
+.icons2:hover{
+    background-color: #22C55E;
+    transform: translateY(-5px);
+}
+
+.icons2_a{
+    text-decoration: none;
+}
+
+
+.icons_link{
+    font-size: 2rem;
+    margin-left: 2vh;
+    color: #FFFFFF;
 }
