@@ -34,6 +34,10 @@ header{
     color: #FFFFFF;
 }
 
+.menu__logo{
+    font-family: "Playfair", serif;
+}
+
 .menu__palabra{
     color: #22C55E;
 }
@@ -41,13 +45,13 @@ header{
 .menu__list{
     display: flex;
     gap: 20px;
-    list-style: none;
-    
+    list-style: none;   
 }
 
 .menu__link{
    color: #FFFFFF;
    text-decoration: none;
+   font-family: "Inter", sans-serif;
 }
 
 .menu__link:visited{
@@ -72,10 +76,13 @@ footer{
     border-top: solid #22C55E;
     color: #FFFFFF;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_logo{
     color: #22C55E;
+    font-family: "Playfair", serif;
 }
 
 

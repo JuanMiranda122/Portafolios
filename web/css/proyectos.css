@@ -2,7 +2,7 @@ main{
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 5vh;
 }
 
 .card{
@@ -38,14 +38,17 @@ main{
 
 .card_list_titulo{
     color: #FFFFFF;
+    font-family: "Playfair", serif;
 }
 
 .card_list_text2{
     color: #B3B3B3;
+     font-family: "Inter", sans-serif;
 }
 
 .card_list_text{
     color: #22C55E;
+     font-family: "Inter", sans-serif;
 }
 
 .hero__icons {
@@ -98,4 +101,5 @@ main{
     font-size: 2rem;
     margin-left: 2vh;
     color: #FFFFFF;
+     font-family: "Inter", sans-serif;
 }

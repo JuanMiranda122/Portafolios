@@ -1,3 +1,4 @@
+
 .hero {
     color: #FFFFFF;
     display: flex;
@@ -13,6 +14,7 @@ h1 {
     color: #FFFFFF;
     font-size: 4rem;
     flex-wrap: wrap;
+    font-family: "Playfair", serif;
 }
 
 h2 {
@@ -21,6 +23,7 @@ h2 {
     flex-wrap: wrap;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-family: "Playfair", serif;
 }
 
 .hero_contenido2{
@@ -43,7 +46,7 @@ h2 {
     border: solid #22C55E;
     box-shadow: 0px 0px 8px #22C55E;
     flex-wrap: wrap;
-    margin-right: 40vh;
+    margin-right: 55vh;
 }
 
 .hero_text {
@@ -51,6 +54,7 @@ h2 {
     font-size: 1.7rem;
     width: 500px;
     line-height: 1.6;
+    font-family: "Inter", sans-serif;
 }
 
 .hero_text2{
@@ -66,11 +70,13 @@ h2 {
    width: 1000px;
    color: #FFFFFF;
    text-align: justify;
-   line-height: 1.6;       
+   line-height: 1.6;
+   font-family: "Inter", sans-serif;       
 }
 
 .hero_subtitulo{
     font-size: 4rem;
+    font-family: "Playfair", serif;
 }
 
 .hero__icons {
@@ -108,6 +114,7 @@ h2 {
     text-align: center;
     font-size: 1.2rem;
     margin-top: 0.5vh;
+    font-family: "Inter", sans-serif;
 }
 
 .icons_links{
